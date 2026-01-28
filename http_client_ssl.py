@@ -1,6 +1,6 @@
 # http_client_ssl.py
-# Student Name: Anees
-# CPAN-226 Lab 1
+# Student Name: Aneesa
+# Student id: n01745842
 
 import ssl
 from socket import *
@@ -33,5 +33,6 @@ print(response.decode())
 
 # 8. Close socket
 ssl_socket.close()
+
 
 
