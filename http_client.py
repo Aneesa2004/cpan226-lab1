@@ -1,6 +1,7 @@
 # http_client.py
-# Student Name: Aneesa
-# CPAN-226 Lab 1
+# Student Name: Aneesa Tariq
+# Student id: n01745842
+
 
 from socket import *
 
@@ -20,7 +21,7 @@ request = "GET /kurose_ross/interactive/index.php HTTP/1.1\r\nHost: gaia.cs.umas
 # 4. Send request
 client_socket.send(request.encode())
 
-# 5. Receive response (up to 4096 bytes)
+# 5. Receive response 
 response = client_socket.recv(4096)
 
 # 6. Print response
@@ -28,3 +29,4 @@ print(response.decode())
 
 # 7. Close socket
 client_socket.close()
+
